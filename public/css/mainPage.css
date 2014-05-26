@@ -1,0 +1,31 @@
+@import url('reset.css');
+
+body {width: 100%; min-width: 1024px; background:  #F1F1F1; font-family: Arial, Helvetica sans-serif; }
+header {background: #EA4731;}
+section {background: inherit; margin: 20px 0; }
+footer {background: #2F2B25;}
+.header, .section, .footer {width: 1024px; height: auto; margin: 0 auto;}
+  .header {height: 60px;}
+    .header h1 {width: 370px; height: 40px; margin:10px; vertical-align: middle; float: left; }
+    .header ul {width: 600px; height: 40px; float: right; margin: 15px 10px 10px 5px; }
+    .header ul:first-child .col-lg-6 {width: 250px;}
+    .header ul li {list-style: none; cursor: pointer; float: right;}
+
+.shadow {-webkit-box-shadow: 5px 5px 10px 0 rgba(35, 35, 35, 0.5); -moz-box-shadow: 5px 5px 10px 0 rgba(35, 35, 35, 0.5); box-shadow: 5px 5px 10px 0 rgba(35, 35, 35, 0.5);}
+  .section {background: #ffffff; border: 1px solid #2F2B25; border-radius: 7px; padding: 20px;}
+    .section h2 {text-align: center; margin: 0 0 20px; font-weight: 600;}
+    .section p {font-weight: 500; font-size: 16px;}
+      .infoBox img {margin: 30px 15px; float: right; cursor: pointer; }
+      .infoBox p { margin: 0 0 20px; }
+      .authors li {width: 100%; margin: 25px 0 35px;}
+        .authors li p {font-weight: 600; margin: 0 40px 20px;}
+        .authors div {width: 648px; height: 45px; margin-left: 188px; }
+        .authors div.second {width: 552px; height: 45px; margin-left: 236px;}
+          .btn-group button {font-weight: 600;}
+    #accordion {width: 900px; margin: 0 auto;}
+      #accordion h3 {margin-top: 15px; background: #cccccc;}
+  .footer {height: 120px; background: linear-gradient(top, #ffffff, #000000); }
+    .footer img {height: 80px; width: 80px; margin: 20px 10px; float: left;}
+    .footer a {display: block; height: 30px; font-size: 14px; vertical-align: middle; width: 500px; float: left; margin: 55px 10px 35px 0;}
+    .footer p {display: block; height: 30px; font-size: 14px; color: #ffffff; vertical-align: middle; width: 220px; float: right; margin: 55px 10px 35px;}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eCat</title>
+    <meta charset="utf-8" />
+    <%-scripts%>
+    <%-stylesheets%>
+
+</head>
+<body>
+<header>
+    <div class="header">
+        <h1>Електронний каталог</h1>
+        <nav>
+            <ul>
+                <li>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="пошук за автором">
+                            <span class="input-group-btn">
+                              <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                              </button>
+                            </span>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-default btn-md">На головну</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section>
+    <div class="section shadow">
+    <h2>Електронний каталог Наукової бібліотеки ім. М. Максимовича</h2>
+    <%-partial('../partial/info.ejs')%>
+    <%-partial('../partial/firstChoice.ejs')%>
+
+
+</section>
+<footer>
+    <div class="footer">
+        <img src="/images/gerb3.png" alt="knu.ua"/>
+        <a href="http://univ.kiev.ua/">Киіївський національний університет імені Тараса Шевченка</a>
+        <p>&#169 Всі права захищені 1995-2014</p>
+    </div>
+</footer>
+</body>
+</html>
